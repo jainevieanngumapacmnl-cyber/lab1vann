@@ -1,0 +1,41 @@
+html{
+    color: white;
+    background-color: rgb(206, 255, 178);
+}
+.navbar{
+    background-color: rgb(53, 216, 67);
+    padding: 2px;
+    margin: -0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    margin: 5px;
+}
+.navSec{
+    padding: 10px;
+    margin: 10px;
+}
+.navSec a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.cardsContainer{
+    color: black;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.card{
+    background-color: #bbff94;
+    padding: 10px;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
